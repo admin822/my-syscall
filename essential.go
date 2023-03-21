@@ -15,5 +15,6 @@ func RunScript(cmdStr string) {
 	if err != nil {
 		panic(err)
 	}
+
 	fmt.Printf("%s\n", out)
 }
